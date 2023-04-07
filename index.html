@@ -53,14 +53,14 @@
                 <a class="nav-link" href="contact.html">Contact us</a>
               </li>
             </ul>
-            <ul class="navbar-nav">
-              <a class="sign-in" href="#">Sign In</a>
-            </ul>
+             <li class="navbar-nav">
+          <button class="btn log-btn" onclick="signup_function()">Log In</button>
+        </li>
           </div>
         </div>
       </nav>
       <!-- image and text section -->
-        <div class="img-sec">
+        <div class="img-sec"  id="blurs">
           <img class="img1" src="./Images/ketto.webp" alt="ok">
           <div class="kavan">
           <pre class="display-txt">
@@ -177,6 +177,34 @@
 
       </div>
     
+    </div>
+
+    <div id="popups" style="position: absolute;
+    top: 56%;">
+      <div class="close-btns" onclick="signup_function()">&times;</div>
+      <div class="forms">
+        <h2>Log In</h2>
+        <div class="form-elements">
+          <label for="username">Username</label>
+          <input type="text" name='user_login' id="userr" placeholder="Enter username">
+        </div>
+
+        <div class="form-elements">
+          <label for="password">Password</label>
+          
+          <input type="password" name='password_login' id="password" placeholder="Enter password">
+        </div>
+
+        <div class="form-elements">
+          <button>Log In</button>
+        </div>
+
+        <div class="form-elements">
+          <a href="#">Forgot password?</a>
+        </div>
+
+      </div>
+
     </div>
 
 

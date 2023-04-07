@@ -45,7 +45,7 @@ body{
     font-size:1.2rem;
     color: black;
     text-decoration: none;
-}
+} 
 .sign-in:hover{
     color: #9ED5C5;
 }
@@ -57,6 +57,11 @@ body{
 .img-sec{
     position: relative;
     /* display: inline-block; */
+}
+.img-sec#blurs.actives{
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
 }
 .display-txt{
     position: absolute;
@@ -141,12 +146,14 @@ user-select: none;
 
     }
 }
+
 .btn{
     background-color: #bbf8ba;
     width: 100%;
     text-align: center;
     box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
     font-family: 'PT Serif', serif;
+    /* margin-left: 600%; */
 }
 .Success {
     text-align: center; 

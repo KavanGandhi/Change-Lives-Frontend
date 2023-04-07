@@ -15,6 +15,12 @@ function toggle(){
     var popup = document.getElementById("popup");
     popup.classList.toggle("active");
 }
+function signup_function() {
+    var blur = document.getElementById("blurs").classList;
+    blur.toggle("actives");
+    var popups = document.getElementById("popups").classList;
+    popups.toggle("actives");
+  }
 
 
 
